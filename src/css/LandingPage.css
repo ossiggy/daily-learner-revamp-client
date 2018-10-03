@@ -5,24 +5,29 @@ body{
   background-position-y: top;
 }
 
-.lander{
-  width: 55%;
-}
-
 .jumbo-title{
   font-family: inherit;
   font-weight: 300;
   font-size: 65px;
 }
 
-.jumbo-intro{
+.jumbo-top{
   background-color: rgba(255, 255, 255, 0.67) !important;
   margin-top: 2rem;
+  width: 55%;
+  color: rgba(0, 0, 0, 0.69);
+}
+
+.jumbo-bottom{
+  background-color: rgba(255, 255, 255, 0.67) !important;
+  margin-top: 2rem;
+  width: 55%;
+  float: right;
   color: rgba(0, 0, 0, 0.69);
 }
 
 @media screen and (max-width: 815px){
-  .lander{
+  .jumbo-top, .jumbo-bottom{
     width: 100%;
   }
 
