@@ -1,0 +1,15 @@
+.lander{
+  max-width: 55%;
+}
+
+.jumbo-title{
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 65px;
+}
+
+.jumbo-intro{
+  background-color: rgba(255, 255, 255, 0.67) !important;
+  margin-top: 2rem;
+  color: rgba(0, 0, 0, 0.69);
+};

@@ -1,0 +1,28 @@
+body{
+  background-image: url('../assets/compass.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: top;
+}
+
+.nav-link{
+  color:#313131;
+}
+
+.nav-link:hover{
+  color:lightgray;
+}
+
+/* a.navbar-brand{
+  color: white !important;
+  font-size: 36px;
+  font-family: 'Delius', cursive;
+  text-shadow: 0 0 20px black;
+} */
+
+.sign-up-title{
+  margin-top:150px;
+  text-align: center;
+  color:white;
+  font-family: 'Delius', cursive;
+}
