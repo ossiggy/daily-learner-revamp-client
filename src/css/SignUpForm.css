@@ -1,0 +1,22 @@
+.sign-up-form{
+  background-color: rgba(255, 255, 255, 0.67) !important;
+  width: 35%;
+  margin-top: 6rem;
+  margin-left: 1rem;
+  display: inline-block;
+}
+
+.sign-up-title{
+  text-align: center;
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 45px;
+}
+
+@media screen and (max-width: 815px){
+  .sign-up-form{
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: 0rem;
+  }
+}
