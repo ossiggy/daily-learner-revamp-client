@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Button, Form, FormGroup, Label, Input, Jumbotron, Container, Row, Col} from 'reactstrap';
+import {Button, Form, FormGroup, Label, Input, Jumbotron} from 'reactstrap';
 
 import "../css/SignUpForm.css";
 
@@ -17,7 +17,7 @@ export default function SignUpForm(props){
           <Label for="sign-up-password">Password</Label>
           <Input type="password" name="password" id="sign-up-password" placeholder="*******"/>
         </FormGroup>
-        <Button>Submit</Button>
+        <Button outline color="info">Submit</Button>
       </Form>
     </Jumbotron>
   )
