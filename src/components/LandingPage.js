@@ -1,6 +1,7 @@
 import React from 'react';
-
 import {Jumbotron} from 'reactstrap';
+
+import SignUpForm from './SignUpForm';
 
 import '../css/LandingPage.css'
 
@@ -20,6 +21,8 @@ export default function LandingPage(props) {
         <hr/>
         <p className='lead'>Have the information ready when you need it most</p>
       </Jumbotron>
+
+      <SignUpForm />
     </div>
   );
 }
