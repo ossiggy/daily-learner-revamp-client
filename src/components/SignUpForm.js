@@ -17,7 +17,7 @@ export default function SignUpForm(props){
           <Label for="sign-up-password">Password</Label>
           <Input type="password" name="password" id="sign-up-password" placeholder="*******"/>
         </FormGroup>
-        <Button outline color="info">Submit</Button>
+        <Button outline color="success">Submit</Button>
       </Form>
     </Jumbotron>
   )
