@@ -18,13 +18,13 @@ export default class Header extends Component{
     return(
     <div>
       <Navbar color='faded'>
-        <NavbarBrand><img alt="logo" src={image}/></NavbarBrand>
+        <NavbarBrand href="/"><img alt="logo" src={image}/></NavbarBrand>
           <Nav>
             <NavItem>
-              <NavLink href="./components">Ideas</NavLink>
+              <NavLink href="">Ideas</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="">
+              <NavLink href="/about">
                 About
               </NavLink>
             </NavItem>
