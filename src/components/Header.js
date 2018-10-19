@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 
 import {
+  Button,
   Navbar,
   NavbarBrand,
   Nav,
@@ -13,6 +14,12 @@ import image from '../assets/logo.png';
 import '../css/Header.css'
 
 export default class Header extends Component{
+  constructor(props){
+    super(props);
+    this.state = {
+
+    }
+  }
 
   render(){
     return(
@@ -21,18 +28,11 @@ export default class Header extends Component{
         <NavbarBrand href="/"><img alt="logo" src={image}/></NavbarBrand>
           <Nav>
             <NavItem>
-              <NavLink href="">Ideas</NavLink>
-            </NavItem>
-            <NavItem>
               <NavLink href="/about">
                 About
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink href="">
-                Log In
-              </NavLink>
-            </NavItem>
+            <Button outline color="secondary">Log In</Button>
           </Nav>
       </Navbar>
     </div>
