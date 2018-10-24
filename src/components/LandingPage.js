@@ -1,11 +1,18 @@
 import React from 'react';
+import {Redirect} from 'react-router-dom';
+import {connect} from 'react-redux';
 import {Jumbotron} from 'reactstrap';
 
 import SignUpForm from './SignUpForm';
 
 import '../css/LandingPage.css'
 
-export default function LandingPage(props) {
+export function LandingPage(props) {
+
+  if(props.loggedIn){
+    return <Redirect to="/dashboard" />
+  }
+
   return (
     <div className='lander'>
       <Jumbotron className="jumbo-top">
@@ -26,3 +33,11 @@ export default function LandingPage(props) {
     </div>
   );
 }
+
+export const mapStateToProps = state => {
+  return {
+    loggedIn: true,
+  };
+};
+
+export default connect(mapStateToProps)(LandingPage);
