@@ -1,4 +1,24 @@
 .jumbo-about-title{
   background-color: rgba(53, 53, 53, 0.61) !important;
   color: white;
+  margin-top: 2rem;
+}
+
+.jumbo-about-top{
+  background-color: rgba(255, 255, 255, 0.67) !important;
+  margin-top: 2rem;
+  width: 75%;
+  color: rgba(0, 0, 0, 0.69);
+}
+
+.jumbo-about-bottom{
+  background-color: rgba(255, 255, 255, 0.67) !important;
+  margin-top: 2rem;
+  width: 75%;
+  float: right;
+  color: rgba(0, 0, 0, 0.69);
+}
+
+.about-text{
+  font-size: 20px;
 }
