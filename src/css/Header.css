@@ -3,5 +3,14 @@
 }
 
 .nav-link:hover{
-  color:lightgray;
+  color:lightblue;
+}
+
+.nav-link:focus{
+  outline: none;
+}
+
+.logout:hover{
+  cursor: pointer;
+  color: lightcoral !important;
 }
